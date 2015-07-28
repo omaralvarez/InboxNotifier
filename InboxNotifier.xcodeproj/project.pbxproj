@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6017DD871B6775F30095E0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017DD861B6775F30095E0CF /* AppDelegate.swift */; };
+		6017DD891B6775F30095E0CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6017DD881B6775F30095E0CF /* Images.xcassets */; };
+		6017DD8C1B6775F30095E0CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6017DD8A1B6775F30095E0CF /* MainMenu.xib */; };
+		6017DD981B6775F40095E0CF /* InboxNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6017DD921B6775F40095E0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6017DD791B6775F30095E0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6017DD801B6775F30095E0CF;
+			remoteInfo = InboxNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6017DD811B6775F30095E0CF /* InboxNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InboxNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6017DD851B6775F30095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6017DD861B6775F30095E0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6017DD881B6775F30095E0CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6017DD8B1B6775F30095E0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6017DD911B6775F40095E0CF /* InboxNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InboxNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6017DD961B6775F40095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxNotifierTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6017DD7E1B6775F30095E0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6017DD8E1B6775F40095E0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6017DD781B6775F30095E0CF = {
+			isa = PBXGroup;
+			children = (
+				6017DD831B6775F30095E0CF /* InboxNotifier */,
+				6017DD941B6775F40095E0CF /* InboxNotifierTests */,
+				6017DD821B6775F30095E0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6017DD821B6775F30095E0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6017DD811B6775F30095E0CF /* InboxNotifier.app */,
+				6017DD911B6775F40095E0CF /* InboxNotifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6017DD831B6775F30095E0CF /* InboxNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				6017DD861B6775F30095E0CF /* AppDelegate.swift */,
+				6017DD881B6775F30095E0CF /* Images.xcassets */,
+				6017DD8A1B6775F30095E0CF /* MainMenu.xib */,
+				6017DD841B6775F30095E0CF /* Supporting Files */,
+			);
+			path = InboxNotifier;
+			sourceTree = "<group>";
+		};
+		6017DD841B6775F30095E0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6017DD851B6775F30095E0CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6017DD941B6775F40095E0CF /* InboxNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */,
+				6017DD951B6775F40095E0CF /* Supporting Files */,
+			);
+			path = InboxNotifierTests;
+			sourceTree = "<group>";
+		};
+		6017DD951B6775F40095E0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6017DD961B6775F40095E0CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6017DD801B6775F30095E0CF /* InboxNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6017DD9B1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifier" */;
+			buildPhases = (
+				6017DD7D1B6775F30095E0CF /* Sources */,
+				6017DD7E1B6775F30095E0CF /* Frameworks */,
+				6017DD7F1B6775F30095E0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InboxNotifier;
+			productName = InboxNotifier;
+			productReference = 6017DD811B6775F30095E0CF /* InboxNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6017DD901B6775F40095E0CF /* InboxNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6017DD9E1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifierTests" */;
+			buildPhases = (
+				6017DD8D1B6775F40095E0CF /* Sources */,
+				6017DD8E1B6775F40095E0CF /* Frameworks */,
+				6017DD8F1B6775F40095E0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6017DD931B6775F40095E0CF /* PBXTargetDependency */,
+			);
+			name = InboxNotifierTests;
+			productName = InboxNotifierTests;
+			productReference = 6017DD911B6775F40095E0CF /* InboxNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6017DD791B6775F30095E0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Luis Omar Alvarez Mures";
+				TargetAttributes = {
+					6017DD801B6775F30095E0CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6017DD901B6775F40095E0CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6017DD801B6775F30095E0CF;
+					};
+				};
+			};
+			buildConfigurationList = 6017DD7C1B6775F30095E0CF /* Build configuration list for PBXProject "InboxNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6017DD781B6775F30095E0CF;
+			productRefGroup = 6017DD821B6775F30095E0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6017DD801B6775F30095E0CF /* InboxNotifier */,
+				6017DD901B6775F40095E0CF /* InboxNotifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6017DD7F1B6775F30095E0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6017DD891B6775F30095E0CF /* Images.xcassets in Resources */,
+				6017DD8C1B6775F30095E0CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6017DD8F1B6775F40095E0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6017DD7D1B6775F30095E0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6017DD871B6775F30095E0CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6017DD8D1B6775F40095E0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6017DD981B6775F40095E0CF /* InboxNotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6017DD931B6775F40095E0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6017DD801B6775F30095E0CF /* InboxNotifier */;
+			targetProxy = 6017DD921B6775F40095E0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6017DD8A1B6775F30095E0CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6017DD8B1B6775F30095E0CF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6017DD991B6775F40095E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6017DD9A1B6775F40095E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6017DD9C1B6775F40095E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InboxNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6017DD9D1B6775F40095E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InboxNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6017DD9F1B6775F40095E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InboxNotifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InboxNotifier.app/Contents/MacOS/InboxNotifier";
+			};
+			name = Debug;
+		};
+		6017DDA01B6775F40095E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InboxNotifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InboxNotifier.app/Contents/MacOS/InboxNotifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6017DD7C1B6775F30095E0CF /* Build configuration list for PBXProject "InboxNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017DD991B6775F40095E0CF /* Debug */,
+				6017DD9A1B6775F40095E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6017DD9B1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017DD9C1B6775F40095E0CF /* Debug */,
+				6017DD9D1B6775F40095E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6017DD9E1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017DD9F1B6775F40095E0CF /* Debug */,
+				6017DDA01B6775F40095E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6017DD791B6775F30095E0CF /* Project object */;
+}
