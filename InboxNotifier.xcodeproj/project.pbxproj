@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6017DD871B6775F30095E0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017DD861B6775F30095E0CF /* AppDelegate.swift */; };
-		6017DD891B6775F30095E0CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6017DD881B6775F30095E0CF /* Images.xcassets */; };
 		6017DD8C1B6775F30095E0CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6017DD8A1B6775F30095E0CF /* MainMenu.xib */; };
 		6017DD981B6775F40095E0CF /* InboxNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */; };
+		60BADE441B68BC8300C0A35D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BADE431B68BC8300C0A35D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +27,11 @@
 		6017DD811B6775F30095E0CF /* InboxNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InboxNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6017DD851B6775F30095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6017DD861B6775F30095E0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6017DD881B6775F30095E0CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6017DD8B1B6775F30095E0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6017DD911B6775F40095E0CF /* InboxNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InboxNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6017DD961B6775F40095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxNotifierTests.swift; sourceTree = "<group>"; };
+		60BADE431B68BC8300C0A35D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				6017DD861B6775F30095E0CF /* AppDelegate.swift */,
-				6017DD881B6775F30095E0CF /* Images.xcassets */,
+				60BADE431B68BC8300C0A35D /* Images.xcassets */,
 				6017DD8A1B6775F30095E0CF /* MainMenu.xib */,
 				6017DD841B6775F30095E0CF /* Supporting Files */,
 			);
@@ -186,8 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6017DD891B6775F30095E0CF /* Images.xcassets in Resources */,
 				6017DD8C1B6775F30095E0CF /* MainMenu.xib in Resources */,
+				60BADE441B68BC8300C0A35D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +393,7 @@
 				6017DD9D1B6775F40095E0CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6017DD9E1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +402,7 @@
 				6017DDA01B6775F40095E0CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
