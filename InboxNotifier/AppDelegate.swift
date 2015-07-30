@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SWXMLHash
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -20,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         if let button = statusItem.button {
             button.image = NSImage(named: "icon_grey_simple")
-            button.title = NSString(string: "222  ")
+            button.title = NSString(string: "222  ") as String
             //button.setFrameSize(NSMakeSize(30, 20))
             button.imagePosition = NSCellImagePosition(rawValue: 2)!
             button.action = Selector("printQuote:")
@@ -33,6 +34,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem(title: "Quit Quotes", action: Selector("terminate:"), keyEquivalent: "q"))
         
         statusItem.menu = menu
+        
+        var url:String="https://mail.google.com/mail/feed/atom"
+        var urlToSend: NSURL = NSURL(string: url)!
+        let xml = SWXMLHash.parse(url)
         
     }
 

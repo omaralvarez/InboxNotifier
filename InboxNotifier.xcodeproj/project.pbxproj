@@ -11,6 +11,7 @@
 		6017DD8C1B6775F30095E0CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6017DD8A1B6775F30095E0CF /* MainMenu.xib */; };
 		6017DD981B6775F40095E0CF /* InboxNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */; };
 		60BADE441B68BC8300C0A35D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BADE431B68BC8300C0A35D /* Images.xcassets */; };
+		AA8C4F23C030DC6CFBD67877 /* Pods_InboxNotifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A0CCFED2A8F5473670EF8B /* Pods_InboxNotifier.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26166F429BE996EFF35A7D91 /* Pods-InboxNotifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InboxNotifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InboxNotifier/Pods-InboxNotifier.debug.xcconfig"; sourceTree = "<group>"; };
+		26EDFF74D75055F3649DA32D /* Pods-InboxNotifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InboxNotifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-InboxNotifier/Pods-InboxNotifier.release.xcconfig"; sourceTree = "<group>"; };
 		6017DD811B6775F30095E0CF /* InboxNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InboxNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6017DD851B6775F30095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6017DD861B6775F30095E0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		6017DD961B6775F40095E0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6017DD971B6775F40095E0CF /* InboxNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxNotifierTests.swift; sourceTree = "<group>"; };
 		60BADE431B68BC8300C0A35D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85A0CCFED2A8F5473670EF8B /* Pods_InboxNotifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InboxNotifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8C4F23C030DC6CFBD67877 /* Pods_InboxNotifier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DF44448574225C81AF85020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26166F429BE996EFF35A7D91 /* Pods-InboxNotifier.debug.xcconfig */,
+				26EDFF74D75055F3649DA32D /* Pods-InboxNotifier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6017DD781B6775F30095E0CF = {
 			isa = PBXGroup;
 			children = (
 				6017DD831B6775F30095E0CF /* InboxNotifier */,
 				6017DD941B6775F40095E0CF /* InboxNotifierTests */,
 				6017DD821B6775F30095E0CF /* Products */,
+				5DF44448574225C81AF85020 /* Pods */,
+				9E6E0F20C550C2A7CD83027E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +122,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9E6E0F20C550C2A7CD83027E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A0CCFED2A8F5473670EF8B /* Pods_InboxNotifier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6017DD9B1B6775F40095E0CF /* Build configuration list for PBXNativeTarget "InboxNotifier" */;
 			buildPhases = (
+				4C0C74A3996BC90D6B5D11EA /* Check Pods Manifest.lock */,
 				6017DD7D1B6775F30095E0CF /* Sources */,
 				6017DD7E1B6775F30095E0CF /* Frameworks */,
 				6017DD7F1B6775F30095E0CF /* Resources */,
+				DC4F6312A6B98E0071CD7CC6 /* Embed Pods Frameworks */,
+				520A01BC3E2598399CA2541B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +226,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C0C74A3996BC90D6B5D11EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		520A01BC3E2598399CA2541B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InboxNotifier/Pods-InboxNotifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4F6312A6B98E0071CD7CC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InboxNotifier/Pods-InboxNotifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6017DD7D1B6775F30095E0CF /* Sources */ = {
@@ -318,6 +393,7 @@
 		};
 		6017DD9C1B6775F40095E0CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26166F429BE996EFF35A7D91 /* Pods-InboxNotifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -329,6 +405,7 @@
 		};
 		6017DD9D1B6775F40095E0CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EDFF74D75055F3649DA32D /* Pods-InboxNotifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
